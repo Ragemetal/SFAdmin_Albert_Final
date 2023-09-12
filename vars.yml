@@ -1,0 +1,10 @@
+---
+mail_region_name: "158.160.76.211.nip.io"
+mariadb_root_user: "root"
+mariadb_root_pass: "3467aytB"
+mariadb_db: "roundcube"
+roundcube_user: "dbuser"
+roundcube_user_pass: "round#123"
+roundcube_dir: "/var/www/html/roundcube/"
+kibana_port: "8090"
+kibana_host: "84.201.179.106.nip.io"

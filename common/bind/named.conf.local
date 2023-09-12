@@ -1,0 +1,9 @@
+zone "sf-albert.test" {
+type master;
+file "/etc/bind/sf-albert.db";
+};
+
+zone "0.8.10.in-addr.arpa" {
+type master;
+file "/etc/bind/sf-albert-reverse.db";
+};

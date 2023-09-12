@@ -1,0 +1,11 @@
+---
+- hosts: centos
+  become: yes
+  tasks:
+
+  - name: Allow access for Zabbix
+    command: "{{ item }}"
+    loop:
+      - firewall-cmd --zone=public --add-service=zabbix-agent --permanent
+      - firewall-cmd --reload
+

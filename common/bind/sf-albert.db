@@ -1,0 +1,14 @@
+$TTL 30m
+@ 	IN	SOA u-agent.sf-albert.test. albert.sf-albert.test. (
+	1 ; serial
+	5h ; renew period
+	5m ; period
+	1w ; expire
+	30m)
+@	IN 	NS u-agent.sf-albert.test.
+;u-agent		IN A 10.8.0.5
+albert		IN A 10.8.0.5
+sf-albert.test.	IN MX 10 albert.sf-albert.test.
+main-server	IN A 10.8.0.1
+u-agent		IN A 10.8.0.4
+db-server	IN A 10.8.0.5

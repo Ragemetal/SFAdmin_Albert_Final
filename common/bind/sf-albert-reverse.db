@@ -1,0 +1,12 @@
+$TTL 30m
+0.0.10.in-addr.arpa. 	IN SOA u-agent.sf-albert.test. albert.sf-albert.test. (
+	1 ; serial
+	5h ; renew
+	5m ; retry
+	1w ; expire
+	30 )
+
+0.0.10.in-addr.arpa.	IN NS u-agent.sf-albert.test.
+1.0.8.10.in-addr.arpa.	IN PTR main-server.sf-albert.test.
+4.0.8.10.in-addr.arpa.	IN PTR u-agent.sf-albert.test.
+5.0.8.10.in-addr.arpa.	IN PTR db-server.sf-albert.test.
